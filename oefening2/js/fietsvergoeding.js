@@ -28,17 +28,14 @@ class GefietsteKilometers {
 
 class GefietsteKilometersRepository {
   constructor() {
-    this.repository = [];
+    this._repository = [];
     this.opvullen();
   }
 
   get repository() {
     return this._repository;
   }
-  set repository(value) {
-    this._repository = value;
-  }
-
+  
   geefJaren() {
   }
 
@@ -127,6 +124,5 @@ function init() {
   };
 }
 
-window.onload = () => {
-  init();
+window.onload = init;
 };
