@@ -77,18 +77,18 @@ De data die we willen laten zien zit in GefietsteKilometersRepository
 1. Implementeer de functie wijzigGefietsteKilometers in GefietsteKilometersRepository
 	- De functie wijzigGefietsteKilometers vervangt de bestaande array aantalKilometers voor het opgegeven jaar (parameter) door de array waarden (parameter)
 	- Implementeer de volgende functies in GefietsteKilometersComponent
-1. gefietsteKilometersToHtml 
-	- De tekstvakken krijgen de correcte waarde voor het meegegeven jaar (parameter)
-1. getJaarFromStorage 
-	- Als de storage een sleutel jaarGefietsteKilometers bevat, moet de keuzelijst met id jaar deze waarde krijgen 
-1. setJaarInStorage 
-	- Deze functie wordt gebruikt om het gekozen jaar weg te schrijven naar de storage. De gebruikte sleutel is jaarGefietsteKilometers
-1. init
-	- Het laatst gekozen jaar wordt opgehaald uit de storage en ingesteld als waarde van de keuzelijst met id jaar
-	- De tekstvakken worden met de correcte waarden dynamisch opgevuld voor dat jaar (functie gefietsteKilometersToHtml)
-	- Als een ander jaar gekozen wordt in de keuzelijst met id jaar
+	1. gefietsteKilometersToHtml 
+		- De tekstvakken krijgen de correcte waarde voor het meegegeven jaar (parameter)
+	1. getJaarFromStorage 
+		- Als de storage een sleutel jaarGefietsteKilometers bevat, moet de keuzelijst met id jaar deze waarde krijgen 
+	1. setJaarInStorage 
+		- Deze functie wordt gebruikt om het gekozen jaar weg te schrijven naar de storage. De gebruikte sleutel is jaarGefietsteKilometers
+	1. init
+		- Het laatst gekozen jaar wordt opgehaald uit de storage en ingesteld als waarde van de keuzelijst met id jaar
+		- De tekstvakken worden met de correcte waarden dynamisch opgevuld voor dat jaar (functie gefietsteKilometersToHtml)
+		- Als een ander jaar gekozen wordt in de keuzelijst met id jaar
 		- De tekstvakken met de correcte waarden worden dynamisch opgevuld voor dat jaar (functie gefietsteKilometersToHtml)
 		- Het laatst gekozen jaar wordt bijgewerkt in de storage
-	- Als op de knop opslaan geklikt wordt, moet de repository bijgewerkt worden.
+		- Als op de knop opslaan geklikt wordt, moet de repository bijgewerkt worden.
 
 
