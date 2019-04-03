@@ -14,7 +14,7 @@ De bedoeling van deze oefening is om in de local storage in je browser belangrij
 	- calculateDiffDays: berekent het aantal dagen tussen de huidige dag en de dag van de milestone
 	```javascript
 	const oneDay = 24 * 60 * 60 * 1000;
-	const diffDays = Math.round(Math.abs((new Date().getTime() - new Date(cursor.value.date).getTime()) / (oneDay)));
+	const diffDays = Math.ceil(Math.abs((new Date().getTime() - new Date(cursor.value.date).getTime()) / (oneDay)));
 	```
 	- getMilestonesFromStorage: haalt de array op uit storage en filtert de milestones die in het vreleden liggen eruit.
 	- setMilestonesInStorage: sorteert de milestones op datum en stopt de milestones in de storage
