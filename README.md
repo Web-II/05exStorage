@@ -16,7 +16,7 @@ De bedoeling van deze oefening is om in de local storage in je browser belangrij
 	const oneDay = 24 * 60 * 60 * 1000;
 	const diffDays = Math.ceil(Math.abs((new Date().getTime() - new Date(cursor.value.date).getTime()) / (oneDay)));
 	```
-	- getMilestonesFromStorage: haalt de array op uit storage en filtert de milestones die in het vreleden liggen eruit.
+	- getMilestonesFromStorage: haalt de array op uit storage en filtert de milestones die in het verleden liggen eruit.
 	- setMilestonesInStorage: sorteert de milestones op datum en stopt de milestones in de storage
 	- addMilestone: maakt een nieuwe milestone aan en wordt in de storage geplaatst
 	- deleteMilestone: verwijdert 1 milestone uit de array milestones en update de nieuwe array in de storage
